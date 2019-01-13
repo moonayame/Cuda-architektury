@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial;
+    box-sizing: border-box;
+}
+
+
+.margin {
+    padding-top: 10px;
+}
+
+#parallax h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: darkgray;
+    padding: 0;
+    margin: 0;
+}
+
+#parallax h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    z-index: 10;
+    opacity: .9;
+}
+
+#parallax h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 0;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: black;
+    padding-bottom: 20px;
+}
+
+#parallax p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.first-type {
+    float: left;
+    font-size: 84px;
+    line-height: 64px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.one {
+    color: #c81f3a;
+}
+
+.two {
+    color: #fea225;
+}
+
+.three {
+    color: #00608d;
+}
+
+
+#parallax .title {
+    background-image: url(img/what-the-hex.png);
+    padding: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#parallax .title h1 {
+    letter-spacing: 8px;
+}
+
+
+
+#parallax .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+#parallax .line-break {
+
+    width: 200px;
+    margin: 0 auto;
+}
+
+.line-one {
+    border-bottom: 2px solid #c81f3a;
+}
+
+.line-two {
+    border-bottom: 2px solid #fea225;
+}
+
+.line-three {
+    border-bottom: 2px solid #00608d;
+}
+
+#parallax .parallax-one {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url("img/Szanghaj.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#parallax .parallax-two {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(img/Nowy_Jork.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#parallax .parallax-three {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(img/Londyn.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
+
+footer {
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100px;
+    background-image: url(img/what-the-hex.png);
+    color: gray;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+    #parallax .block {
+        padding: 40px;
+        width: 620px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #parallax .block {
+        padding: 30px;
+        width: 420px;
+    }
+    #parallax h2 {
+        font-size: 30px;
+    }
+    #parallax .block {
+        padding: 30px;
+    }
+    #parallax .parallax-one,
+    #parallax .parallax-two,
+    #parallax .parallax-three {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #parallax .block {
+        padding: 30px 15px;
+        width: 290px;
+    }
+}
